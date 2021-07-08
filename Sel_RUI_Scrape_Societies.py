@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 import json
 
-PATH='C:\Program Files/phantomjs.exe' #Path per phantomJS
+PATH='C:\Program Files/phantomjs.exe' #Path per phantomJS, link per scaricarlo: https://phantomjs.org/download.html
 driver = webdriver.PhantomJS(PATH)
 driver.get('https://servizi.ivass.it/RuirPubblica/') #pagina iniziale di ricerca IVASS-RUI
 ## seleziona Ricerca per società.
